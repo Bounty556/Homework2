@@ -1,0 +1,30 @@
+nav {
+    background-color: white;
+}
+
+.portfolio-brand h1 {
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #66b2b2;
+    padding: 18px;
+    margin: 0px;
+}
+
+.portfolio-nav {
+    padding: 0;
+}
+.portfolio-nav a {
+    color: gray;
+}
+
+body {
+    background-image: url(../../Assets/Images/background.jpg);
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio-brand {
+        font-size: 5px;
+    }
+}
