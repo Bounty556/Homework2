@@ -1,27 +1,46 @@
 nav {
     background-color: white;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+main{
+    margin-top: 30px;
+    
+}
+
+.my-4 {
+    border-width: 3px;
+    background-color: #EEE;
 }
 
 .portfolio-brand h1 {
     font-family: 'Domine', serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 21px;
     color: white;
     background-color: #66b2b2;
-    padding: 18px;
+    padding: 20px;
     margin: 0px;
 }
 
-.portfolio-nav a {
-    color: gray;
+.portfolio-nav-items a {
+    color: #AAA;
 }
 
 body {
     background-image: url(../../Assets/Images/background.jpg);
 }
 
-@media screen and (min-width: 768px) {
-    .portfolio-brand {
-        font-size: 5px;
-    }
+.content {
+    border: 1px solid #DDD;
+    background-color: white;
+    padding: 24px 20px 24px 20px;
+}
+
+.content h1 {
+    margin: 0px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #66b2b2;
 }
