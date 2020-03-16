@@ -91,3 +91,17 @@ body {
     padding-bottom: 0px;
     padding-top: 0px;
 }
+
+.contact {
+    border: 1px solid #DDD;
+    background-color: white;
+    padding: 24px 20px 24px 20px;
+}
+
+.contact h1 {
+    margin: 0px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #66b2b2;
+}

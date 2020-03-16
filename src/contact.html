@@ -36,10 +36,10 @@
                                     <a class="nav-link" href="index.html">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">Portfolio</a>
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link active" href="#">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -48,41 +48,27 @@
             </div>
         </nav>
 
-        <!-- Portfolio section -->
+        <!-- Contact section -->
         <main class="container">
             <div class="row col-md-8">
-                <div class="jumbotron jumbotron-fluid portfolio">
-                    <h1 class="display-4">Portfolio</h1>
+                <div class="jumbotron jumbotron-fluid contact">
+                    <h1 class="display-4">Contact</h1>
                     <hr class="my-4">
-                    <!-- Portfolio items -->
-                    <div class="container">
-                    	<div class="row">
-                    		<div class="col-md-6 portfolio-item">
-                    			<img src="../Assets/Images/word-guess.jpg" class="img-fluid" alt="Image of a rotary phone" />
-                    			<p class="text-center">Word Guess</p>
-                    		</div>
-                    		<div class="col-md-6 portfolio-item">
-                    			<img src="../Assets/Images/rpg-game.jpg" class="img-fluid" alt="Image of a cliff overlooking the ocean" />
-                    			<p class="text-center">RPG game</p>
-                    		</div>
-                    	</div>
-                    	<div class="row">
-                    		<div class="col-md-6 portfolio-item">
-                    			<img src="../Assets/Images/trivia-game.jpg" class="img-fluid" alt="Image of a chess board" />
-                    			<p class="text-center">Trivia Game</p>
-                    		</div>
-                    		<div class="col-md-6 portfolio-item">
-                    			<img src="../Assets/Images/info-widget.jpg" class="img-fluid" alt="Image of a person standing at a crosswalk" />
-                    			<p class="text-center">Info Widget</p>
-                    		</div>
-                    	</div>
-                    	<div class="row">
-                    		<div class="col-md-6 portfolio-item">
-                    			<img src="../Assets/Images/rock-paper-scissors.jpg" class="img-fluid" alt="Image of 2 people playing rock paper scissors" />
-                    			<p class="text-center">Rock Paper Scissors</p>
-                    		</div>
-                    	</div>
-                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="name-input">Name</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email-input">Email</label>
+                            <input type="email" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="validationTextarea">Textarea</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </main>
