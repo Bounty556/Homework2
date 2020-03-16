@@ -44,3 +44,8 @@ body {
     font-size: 21px;
     color: #66b2b2;
 }
+
+.profpic {
+    max-width: 50%;
+    margin-right: 16px;
+}
