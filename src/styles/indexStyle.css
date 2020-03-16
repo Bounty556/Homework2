@@ -30,7 +30,8 @@ body {
     color: #888;
 }
 
-.about-me {
+/*Common styling for the main content on all pages*/
+.content {
     border: 1px solid #DDD;
     background-color: white;
     padding: 24px 20px;
@@ -53,12 +54,6 @@ body {
     margin-right: 16px;
 }
 
-.contact {
-    border: 1px solid #DDD;
-    background-color: white;
-    padding: 24px 20px;
-}
-
 .contact h1 {
     margin: 0px;
     font-family: 'Domine', serif;
@@ -69,12 +64,6 @@ body {
 
 .contact label {
     color: #888;
-}
-
-.portfolio {
-    border: 1px solid #DDD;
-    background-color: white;
-    padding: 24px 20px;
 }
 
 .portfolio h1 {
@@ -109,7 +98,16 @@ body {
     padding-top: 0px;
 }
 
+/*For anything less than a medium-width screen*/
 @media screen and (max-width: 767.98px) {
+
+    /*Make the portfolio brand "stick" to the sides of the screen*/
+    .portfolio-brand {
+        padding: 0px;
+        margin: auto;
+    }
+
+    /*Make images fit in the wider width*/
     .portfolio img {
         height: auto;
         object-fit: cover;
