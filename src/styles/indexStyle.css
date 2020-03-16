@@ -5,7 +5,10 @@ nav {
 
 main{
     margin-top: 30px;
-    
+}
+
+body {
+    background-image: url(../../Assets/Images/background.jpg);
 }
 
 .my-4 {
@@ -27,14 +30,10 @@ main{
     color: #888;
 }
 
-body {
-    background-image: url(../../Assets/Images/background.jpg);
-}
-
 .about-me {
     border: 1px solid #DDD;
     background-color: white;
-    padding: 24px 20px 24px 20px;
+    padding: 24px 20px;
 }
 
 .about-me h1 {
@@ -57,7 +56,7 @@ body {
 .portfolio {
     border: 1px solid #DDD;
     background-color: white;
-    padding: 24px 20px 24px 20px;
+    padding: 24px 20px;
 }
 
 .portfolio h1 {
@@ -95,7 +94,7 @@ body {
 .contact {
     border: 1px solid #DDD;
     background-color: white;
-    padding: 24px 20px 24px 20px;
+    padding: 24px 20px;
 }
 
 .contact h1 {
@@ -104,4 +103,8 @@ body {
     font-weight: bold;
     font-size: 21px;
     color: #66b2b2;
+}
+
+.contact label {
+    color: #888;
 }
