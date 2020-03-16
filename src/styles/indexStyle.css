@@ -53,3 +53,41 @@ body {
     max-width: 50%;
     margin-right: 16px;
 }
+
+.portfolio {
+    border: 1px solid #DDD;
+    background-color: white;
+    padding: 24px 20px 24px 20px;
+}
+
+.portfolio h1 {
+    margin: 0px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #66b2b2;
+}
+
+.portfolio img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.portfolio p {
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    background-color: #66b2b2;
+    padding: 10px;
+
+    margin: 0px;
+
+    position: relative;
+    top: -64px;
+}
+
+.portfolio .row {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
