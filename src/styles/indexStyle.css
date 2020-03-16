@@ -24,20 +24,20 @@ main{
 }
 
 .portfolio-nav-items a {
-    color: #AAA;
+    color: #888;
 }
 
 body {
     background-image: url(../../Assets/Images/background.jpg);
 }
 
-.content {
+.about-me {
     border: 1px solid #DDD;
     background-color: white;
     padding: 24px 20px 24px 20px;
 }
 
-.content h1 {
+.about-me h1 {
     margin: 0px;
     font-family: 'Domine', serif;
     font-weight: bold;
@@ -45,7 +45,11 @@ body {
     color: #66b2b2;
 }
 
-.profpic {
+.about-me p {
+    color: #888;
+}
+
+.prof-pic {
     max-width: 50%;
     margin-right: 16px;
 }
