@@ -11,6 +11,20 @@ body {
     background-image: url(../../Assets/Images/background.jpg);
 }
 
+footer {
+    height: 70px;
+    border-top: solid 8px #66b2b2;
+    background-color: #555;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer p {
+    color: #AAA;
+    font-size: 10px;
+    margin-top: 26px;
+}
+
 .my-4 {
     border-width: 3px;
     background-color: #EEE;
@@ -37,7 +51,7 @@ body {
     padding: 24px 20px;
 }
 
-.about-me h1 {
+.content h1 {
     margin: 0px;
     font-family: 'Domine', serif;
     font-weight: bold;
@@ -54,24 +68,8 @@ body {
     margin-right: 16px;
 }
 
-.contact h1 {
-    margin: 0px;
-    font-family: 'Domine', serif;
-    font-weight: bold;
-    font-size: 21px;
-    color: #66b2b2;
-}
-
 .contact label {
     color: #888;
-}
-
-.portfolio h1 {
-    margin: 0px;
-    font-family: 'Domine', serif;
-    font-weight: bold;
-    font-size: 21px;
-    color: #66b2b2;
 }
 
 .portfolio img {
