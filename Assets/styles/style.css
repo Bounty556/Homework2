@@ -44,6 +44,27 @@ footer p {
     color: #888;
 }
 
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-overlay {
+    visibility: hidden;
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 240px;
+    background-color: rgba(1, 1, 1, .4);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio-overlay .btn {
+    height: 40px;
+}
+
 /*Common styling for the main content on all pages*/
 .content {
     border: 1px solid #DDD;
