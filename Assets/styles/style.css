@@ -96,6 +96,11 @@ footer p {
     padding-top: 0px;
 }
 
+#resume {
+    text-align: center;
+    text-decoration: underline;
+}
+
 /*For anything less than a medium-width screen*/
 @media screen and (max-width: 767.98px) {
 
