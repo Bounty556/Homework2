@@ -4,13 +4,11 @@
 
 This website exists to demonstrate my current and future work in Web Development, Game Development, and hopefully more.
 
-At the moment, the works listed on this website are placeholders - they will be replaced in the future as I gain more experience and have more projects to share.
-
 This website was designed to be fully responsive, and has been tested on screen sizes ranging from 500px in width to 1920px in width. This was achieved using the Bootstrap CSS and Javascript libraries for ease of creation and simplicity of code.
 
 ## Credits
 
-All images attained from https://unsplash.com/ and its varying sources.
+All images attained from [Unsplash](https://unsplash.com/) and its varying sources.
 
 ## License
 

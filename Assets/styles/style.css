@@ -25,6 +25,18 @@ footer p {
     margin-top: 26px;
 }
 
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-info {
+    height: 64px;
+    width: auto;
+}
+
 .my-4 {
     border-width: 3px;
     background-color: #EEE;

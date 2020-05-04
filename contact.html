@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>Jacob Peterson</title>
-        
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Domine:400,700&display=swap" rel="stylesheet" />
 
@@ -58,22 +58,33 @@
                         <form>
                             <div class="form-group">
                                 <label for="name-input">Name</label>
-                                <input type="text" class="form-control" placeholder="John Smith"/>
+                                <input type="text" class="form-control" id="form-name" placeholder="John Smith"/>
                             </div>
                             <div class="form-group">
                                 <label for="email-input">Email</label>
-                                <input type="email" class="form-control" placeholder="name@example.com" />
+                                <input type="email" class="form-control" id="form-email" placeholder="name@example.com" />
                             </div>
                             <div class="form-group">
                                 <label for="validationTextarea">Message</label>
-                                <textarea class="form-control"></textarea>
+                                <textarea class="form-control" id="form-message"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
         </main>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-8">
+                    <div class="jumbotron jumbotron-fluid content contact-links">
+                        <a href="https://github.com/Bounty556" target="_blank"><img src="assets/images/GithubLogo.png" class="contact-info"></a>
+                        <a href="https://www.linkedin.com/in/jacob-p-893aa4134/" target="_blank"><img src="assets/images/LinkedInLogo.png" class="contact-info"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Sticky footer -->
         <footer class="fixed-bottom">
