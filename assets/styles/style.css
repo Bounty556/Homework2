@@ -1,0 +1,151 @@
+nav {
+    background-color: white;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+main{
+    margin-top: 30px;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+footer {
+    height: 70px;
+    border-top: solid 8px #66b2b2;
+    background-color: #555;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer p {
+    color: #AAA;
+    font-size: 10px;
+    margin-top: 26px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-info {
+    height: 64px;
+    width: auto;
+}
+
+.my-4 {
+    border-width: 3px;
+    background-color: #EEE;
+}
+
+.portfolio-brand h1 {
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    background-color: #66b2b2;
+    padding: 20px;
+    margin: 0px;
+}
+
+.portfolio-nav-items a {
+    color: #888;
+}
+
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-overlay {
+    visibility: hidden;
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 240px;
+    background-color: rgba(1, 1, 1, .4);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio-overlay .btn {
+    height: 40px;
+}
+
+/*Common styling for the main content on all pages*/
+.content {
+    border: 1px solid #DDD;
+    background-color: white;
+    padding: 24px 20px;
+}
+
+.content h1 {
+    margin: 0px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #66b2b2;
+}
+
+.about-me p {
+    color: #888;
+}
+
+.prof-pic {
+    max-width: 50%;
+    margin-right: 16px;
+}
+
+.contact label {
+    color: #888;
+}
+
+.portfolio img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.portfolio p {
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    background-color: #66b2b2;
+    padding: 10px;
+
+    margin: 0px;
+
+    position: relative;
+    top: -64px;
+}
+
+.portfolio .row {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#resume {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*For anything less than a medium-width screen*/
+@media screen and (max-width: 767.98px) {
+
+    /*Make the portfolio brand "stick" to the sides of the screen*/
+    .portfolio-brand {
+        padding: 0px;
+        margin: auto;
+    }
+
+    /*Make images fit in the wider width*/
+    .portfolio img {
+        height: auto;
+        object-fit: cover;
+    }
+}
