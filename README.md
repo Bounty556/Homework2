@@ -6,10 +6,6 @@ This website exists to demonstrate my current and future work in Web Development
 
 This website was designed to be fully responsive, and has been tested on screen sizes ranging from 500px in width to 1920px in width. This was achieved using the Bootstrap CSS and Javascript libraries for ease of creation and simplicity of code.
 
-## Credits
-
-All images attained from [Unsplash](https://unsplash.com/) and its varying sources.
-
 ## License
 
 MIT License
