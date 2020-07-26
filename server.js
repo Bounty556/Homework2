@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const handlebars = require('express-handlebars');
 
 const PORT = process.env.PORT || 3000;
@@ -17,10 +16,9 @@ app.use(express.json());
 app.engine('handlebars', handlebars({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
-app.get('/', (req, res) =>
-{
-  res.render('index');
-});
+// Grab the routes we set up to use with our app
+const routes = require('./routes/routes');
+app.use(routes);
 
 app.listen(PORT, () => {
   console.log('Listening on http://localhost:' + PORT);
