@@ -4,12 +4,27 @@
   <head>
     <meta charset='utf-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1' />
+    
+    {{!-- Custom --}}
+    <link rel='stylesheet' href='/css/style.css' />
 
     <title>Jacob Peterson's Portfolio</title>
   </head>
   <body>
+    <header class='spread-horizontal'>
+      <div>
+        <h1>Jacob Peterson</h1>
+      </div>
+
+      {{!-- Doing my own linking in JS so I can keep all links in the main handlebars --}}
+      <div id='links' class='vertical'>
+        <a href='#' data-href='/'>About Me</a>
+        <a href='#' data-href='/portfolio'>Portfolio</a>
+        <a href='#' data-href='/contact'>Contact</a>
+      </div>
+    </header>
 
     {{{ body }}}
-    
+
   </body>
 </html>
